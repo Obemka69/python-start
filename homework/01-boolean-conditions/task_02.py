@@ -30,3 +30,6 @@
 #     Полный билет: False
 
 # Решение
+age = int(input())
+print("Льготный билет: " , age<18 or age>=65)
+print("Полный билет: " , not(age<18 or age>=65))
