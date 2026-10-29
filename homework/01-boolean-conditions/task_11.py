@@ -49,3 +49,7 @@
 #     False
 
 # Решение
+kassa1=input("")
+kassa2=input("")
+kassa3=input("")
+print((kassa1=="да" and kassa2=="нет" and kassa3=="нет") or (kassa2=="да" and kassa1=="нет" and kassa3=="нет") or (kassa3=="да" and kassa1=="нет" and kassa2=="нет"))
