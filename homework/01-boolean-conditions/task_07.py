@@ -28,3 +28,5 @@
 #     False
 
 # Решение
+butulki=int(input("Количество бутылок: "))
+print(butulki%6==0 and butulki%4==0)
