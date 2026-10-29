@@ -50,3 +50,7 @@
 #     Можно на аттракцион: False
 
 # Решение
+rost=int(input())
+age=int(input())
+sovzroslum=input()
+print("Можно на аттракцион: " , rost>=120 and (age>=10 or sovzroslum=="да"))
