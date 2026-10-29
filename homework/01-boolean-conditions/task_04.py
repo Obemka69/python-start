@@ -44,3 +44,8 @@
 #     Позвонить покупателю: False
 
 # Решение
+oplata = input("")
+tovarest = input("")
+adress = input("")
+print("Можно отправлять:" , oplata=="да" and tovarest=="да" and adress=="да")
+print("Позвонить покупателю:" , oplata=="да" and adress=="нет")
