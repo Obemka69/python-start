@@ -31,3 +31,15 @@
 #     Сессия закрыта: False
 
 # Решение
+first=int(input())
+second=int(input())
+third=int(input())
+c=0
+if first >= 40:
+    c+=1
+if second >= 40:
+    c+=1
+if third >= 40:
+    c+=1
+print("Сдано экзаменов: " , c)
+print("Сессия закрыта: " , first >=40 and second >=40 and third >=40)
