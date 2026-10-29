@@ -39,3 +39,7 @@
 #     False
 
 # Решение
+ostatok = int(input())
+zena = float(input())
+summphave = float(input())
+print(ostatok>0 and summphave>=zena)
