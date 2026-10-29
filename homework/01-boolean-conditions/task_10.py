@@ -49,3 +49,10 @@
 #     Допущен: False
 
 # Решение
+posetiaemost=float(input())
+sdanw=int(input())
+dolg=float(input())
+print("Посещаемость: " , posetiaemost >= 75)
+print("Лабораторные: " , sdanw >= 8)
+print("Нет долга: " , dolg==0)
+print("Допущен: " , posetiaemost >= 75 and sdanw >= 8 and dolg==0)
