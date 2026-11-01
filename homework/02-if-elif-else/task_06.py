@@ -43,3 +43,13 @@
 #     Кешбэк: 0.00 руб.
 
 # Решение
+kategory = input("Категория: ")
+summa = float(input("Сумма покупки, руб.: "))
+if kategory == "азс":
+    print(f"Кешбэк: {summa*5/100:.2f} руб.")
+elif kategory == "аптека":
+    print(f"Кешбэк: {summa*3/100:.2f} руб.")
+elif kategory == "супермаркет":
+    print(f"Кешбэк: {summa*1/100:.2f} руб.")
+else:
+    print(f"Кешбэк: {summa*0/100:.2f} руб.")

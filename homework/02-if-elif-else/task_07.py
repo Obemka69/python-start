@@ -34,3 +34,10 @@
 #     Снизьте давление
 
 # Решение
+pokazanie=float(input("Давление, бар: "))
+if 2.2 <= pokazanie <= 2.5:
+    print("Давление в норме")
+elif pokazanie < 2.2:
+    print("Подкачайте шины")
+elif pokazanie > 2.5:
+    print("Снизьте давление")

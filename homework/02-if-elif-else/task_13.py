@@ -47,3 +47,16 @@
 #     Отпуск согласован
 
 # Решение
+otrabotka=int(input("Отработано месяцев: "))
+otpusk=int(input("Дней отпуска: "))
+dostup=round((otrabotka*28)//12)
+nehvatka=otpusk-dostup
+if otrabotka<6:
+    print("Отпуск пока недоступен")
+else:
+    if otpusk==dostup:
+        print(f"Доступно дней: {dostup}")
+        print("Отпуск согласован")
+    else:
+        print(f"Доступно дней: {dostup}")
+        print(f"Не хватает дней: {nehvatka}")

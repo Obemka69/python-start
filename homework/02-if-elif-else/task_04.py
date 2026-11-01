@@ -51,3 +51,12 @@
 #     Опоздание на 3 ч
 
 # Решение
+nachalo=int(input("Начало интервала, ч: "))
+konec=int(input("Конец интервала, ч: "))
+hour=int(input("Курьер приехал, ч: "))
+if nachalo <= hour <= konec:
+    print("Вовремя")
+elif hour < nachalo:
+    print("Раньше интервала")
+else:
+    print(f"Опоздание на {hour - konec} ч")

@@ -51,3 +51,16 @@
 #     Штраф: 5000 руб.
 
 # Решение
+razresheno=int(input("Разрешённая скорость, км/ч: "))
+fact=int(input("Фактическая скорость, км/ч: "))
+raznica=fact-razresheno
+if raznica <= 20:
+    print("Штраф: 0 руб.")
+elif 21 <= raznica <= 40:
+    print("Штраф: 750 руб.")
+elif 41 <= raznica <= 60:
+    print("Штраф: 1500 руб.")
+elif 61 <= raznica <= 80:
+    print("Штраф: 2500 руб.")
+else:
+    print("Штраф: 5000 руб.")
