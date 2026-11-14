@@ -27,3 +27,11 @@
 #     Цифр: 7
 
 # Решение
+natch=int(input("Натуральное число: "))
+c=0
+while True:
+    if natch==0:
+        break
+    natch//=10
+    c+=1
+print(f"Цифр: {c}")

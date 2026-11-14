@@ -27,3 +27,10 @@
 #     Сумма цифр: 3
 
 # Решение
+natch=int(input("Номер заказа: "))
+summ=0
+c=0
+while natch>0:
+    c+=natch%10
+    natch//=10
+print(f"Сумма цифр: {c}")
